@@ -6,8 +6,8 @@ from selenium.webdriver.chrome.options import Options
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 
-telegram_token = "7183552004:AAHMZy_ylgJVOk-FGuev2cD4hLsJGfVCuKo"
-API_KEY = "AIzaSyB90Dua5Ll7J5JfonMeMNnZpJk0fDx_R9g"
+telegram_token = "Bot-token-here"
+API_KEY = "Gemini-API-key-here"
 
 def generate_response(user_input):
     try:
